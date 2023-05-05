@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: bold;
+      }
+
+      .container {
+        margin: 20px 100px;
+        border: 10px solid;
+        border-color: black;
+        /* background-color: blanchedalmond; */
+        height: 800px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+      }
+
+      .line1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+      }
+
+      .line2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        /* margin-left: 180px;
+        margin-right: 180px; */
+        /* flex: 0 1 auto; */
+      }
+
+      .line3 {
+        display: flex;
+        justify-content: start;
+        margin-top: 30px;
+        /* margin-left: 178px; */
+      }
+
+      .line4 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+      }
+
+      .checkbox {
+        margin-left: 100px;
+      }
+
+      .radio {
+        margin-left: 98px;
+      }
+
+      .line5 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+      }
+
+      .line6 {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+      }
+
+      .text6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .line7 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+      </header>
+
+      <div class="line1">
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+      </div>
+
+      <div class="line2">
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="113" />
+        </div>
+      </div>
+
+      <div class="line3">
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="196" />
+        </div>
+      </div>
+
+      <div class="line4">
+        <div>
+          <input type="checkbox" name="checkbox" />
+          <label for="checkbox1">Checkbox</label>
+          <!-- </div>
+        <div> -->
+          <input type="checkbox" name="checkbox" class="checkbox" />
+          <label for="checkbox1">Checkbox</label>
+        </div>
+
+        <div>
+          <input type="radio" name="radio" />
+          <label for="checkbox1">Radio button</label>
+
+          <!-- </div>
+        <div> -->
+          <input type="radio" name="radio" class="radio" />
+          <label for="checkbox1">Radio button</label>
+        </div>
+
+        <div>
+          <!-- <label for="combobox">Combobox:</label> -->
+          <select name="combobox" id="combobox">
+            <option value="x">combobox</option>
+            <option value="x1">combobox1</option>
+            <option value="x2">combobox2</option>
+            <option value="x3">combobox333333333333</option>
+          </select>
+        </div>
+      </div>
+      <div class="line5">
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+      </div>
+      <div class="line6">
+        <div>
+          <p>Some text</p>
+          <textarea rows="10" cols="33"></textarea>
+        </div>
+
+        <div>
+          <p>Some text</p>
+          <input type="text" id="text" size="30" />
+        </div>
+        <div class="text6">
+          <div>
+            <p>Some text</p>
+            <input type="text" id="text" size="30" />
+          </div>
+          <div>
+            <p>Some text</p>
+            <input type="text" id="text" size="30" />
+          </div>
+        </div>
+      </div>
+      <div class="line7">
+        <button>İptal</button>
+        <div class="button">
+          <button>Kaydet</button>
+
+          <button>Gönder</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
